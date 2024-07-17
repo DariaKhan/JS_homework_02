@@ -68,8 +68,8 @@ if (isNaN(day) || day < 1 || day > 31) {
 */
 
 let number = +prompt ('Введите любое положительное число');
-let units = number % 10; //7
-let tens = (number % 100 - units) / 10; //3
+let units = number % 10; 
+let tens = (number % 100 - units) / 10; 
 let hundreds = (number%1000 - tens*10 - units) / 100;
 alert (`В числе ${number} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`);
 
